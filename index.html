@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Crew Live Streams</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside id="sidebar">
+    <h2>Live Streams</h2>
+    <ul id="streamer-list"></ul>
+    <div id="sidebar-nav">
+      <button id="sidebar-prev" disabled>&lt;</button>
+      <span id="sidebar-page-info"></span>
+      <button id="sidebar-next" disabled>&gt;</button>
+    </div>
+  </aside>
+  <main id="main-content">
+    <div id="video-chat-container">
+      <div id="video-container">
+        <!-- The Twitch embed and fallback overlay will be injected here by JS -->
+      </div>
+      <div id="chat-container">
+        <!-- Chat iframe is injected by JS here -->
+      </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
