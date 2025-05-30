@@ -1,4 +1,4 @@
-# The Crew Live Streams
+# Live Streams
 
 A responsive web app to watch and chat with multiple Twitch streamers, featuring a live sidebar, embedded video and chat, and support for donations.
 
@@ -54,4 +54,4 @@ A responsive web app to watch and chat with multiple Twitch streamers, featuring
 
 ---
 
-Made with ❤️ by RagingStray & contributors.
+Made with ❤️ by RagingStray
